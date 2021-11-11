@@ -1,0 +1,20 @@
+.list-category {
+  .list-cate {
+    .list-item {
+      list-style: none;
+      padding-top: 15px;
+    }
+    .item-cate {
+      text-decoration: none;
+      color: rgb(75, 75, 75);
+
+      font-size: 16px;
+
+      opacity: 0.5;
+    }
+    .item-cate:hover {
+      opacity: 1;
+      border-bottom: 1px solid #555;
+    }
+  }
+}

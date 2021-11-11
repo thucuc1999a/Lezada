@@ -1,0 +1,35 @@
+.wrapper-pagination {
+  padding-top: 2rem;
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    .page-item {
+      list-style: none;
+      width: 30px;
+      .line {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 6px;
+
+        background-color: #7a0c0c;
+        transition: all 0.2s ease;
+      }
+
+      .page-link {
+        text-decoration: none;
+        color: #333;
+        font-size: 17px;
+        text-align: center;
+        opacity: 0.5;
+        font-weight: bold;
+      }
+      .page-link:active {
+        text-decoration: underline;
+        opacity: 1;
+      }
+    }
+  }
+}

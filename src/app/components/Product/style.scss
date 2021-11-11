@@ -1,0 +1,178 @@
+.popular-item {
+  //padding-left: 0.5rem;
+  //padding-right: 1.45rem;
+  //margin-left: 1rem;
+  position: relative;
+  .box {
+    display: block;
+
+    overflow: hidden;
+    background-color: #fff;
+    img.thumnail {
+      // border: 3px solid #111;
+      max-width: 380px;
+      max-height: 493px;
+    }
+
+    ul.label-cycle {
+      position: absolute;
+      top: 1rem;
+
+      left: 1rem;
+      margin: 0;
+      padding: 0;
+
+      .label-item {
+        list-style: none;
+        font-size: 0.8rem;
+        padding-top: 10px;
+
+        .new-item {
+          width: 4rem;
+        }
+        p.text-label {
+          font-size: 0.8rem;
+          width: 3rem;
+          height: 3rem;
+          border: rgb(21, 179, 179);
+          border-radius: 50%;
+          background-color: rgb(21, 179, 179);
+          color: #fff;
+          line-height: 3rem;
+          font-weight: bold;
+          text-align: center;
+        }
+        p.text-label-red {
+          font-size: 0.8rem;
+          width: 3rem;
+          height: 3rem;
+          border: rgba(182, 2, 26, 0.794);
+          border-radius: 50%;
+          background-color: rgba(177, 0, 24, 0.794);
+          color: #fff;
+          line-height: 3rem;
+          font-weight: bold;
+          text-align: center;
+        }
+      }
+    }
+
+    /*.label-tool {
+      position: absolute;
+      top: 1rem;
+      right: 0rem;
+      visibility: hidden;
+       .add-tooltip {
+        width: 2.6rem;
+        height: 2.6rem;
+        //border: 1px solid #111;
+        margin-bottom: 0.4rem;
+
+        background-color: #fff;
+
+        align-items: center;
+        transform: translateX(120%);
+        -webkit-transition: transform 0.5s ease-out;
+        -o-transition: transform 0.5s ease-out;
+        transition: transform 0.5s ease-out;
+        //display: none;
+        i.icon {
+          //border: 1px solid rgb(175, 20, 20);
+          padding: 0.38rem;
+          transform: translate(0.5rem, 0.5rem);
+        }
+        .pointer {
+          margin-bottom: 2rem;
+          margin-right: 5rem;
+          width: 85px;
+          height: 20px;
+          position: relative;
+          background: rgb(85, 85, 85);
+          //visibility: hidden;
+          p.text-pointer {
+            color: #fff;
+            font-size: 0.6rem;
+            font-family: "Nunito", sans-serif;
+            text-align: center;
+            line-height: 20px;
+            padding-left: 0.1rem;
+          }
+        }
+
+        .pointer:before {
+          content: "";
+          position: absolute;
+          right: -5px;
+          bottom: 0;
+          width: 0;
+          height: 0;
+          border-left: 5px solid rgb(85, 85, 85);
+          border-top: 4px solid transparent;
+          border-bottom: 3px solid transparent;
+          color: #fff;
+        }
+        .heart {
+          border: rgba(177, 0, 24, 0.794);
+        }
+      }
+
+      .add-tooltip:hover .pointer {
+        visibility: visible;
+      }
+      
+    }
+    */
+  }
+
+  .text-name {
+    font-weight: bold;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+    text-decoration: none;
+    color: 333;
+  }
+  p.text-price {
+    margin: 0;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .overlay {
+    transform: translateY(100%);
+    -webkit-transition: transform 0.5s ease-out;
+    -o-transition: transform 0.5s ease-out;
+    transition: transform 0.5s ease-out;
+
+    a.add-to-cart {
+      text-decoration: none;
+      color: rgb(134, 5, 5);
+      font-weight: bold;
+    }
+  }
+
+  .box:hover .overlay {
+    transform: translateY(0);
+  }
+  /*.box:hover .add-tooltip {
+    transform: translateX(-1rem);
+  }*/
+}
+.popular-item.popular-item:nth-child(3n) {
+  margin-right: 0;
+}
+.popular-item:hover .add-tooltip {
+  transform: translateX(0);
+  visibility: visible;
+}
+@media only screen and (max-width: 1199px) and (min-width: 1024px) {
+  img.thumnail {
+    width: 290px;
+    height: 386px;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 1363px) {
+  img.thumnail {
+    width: 320px;
+    height: 440px;
+  }
+}

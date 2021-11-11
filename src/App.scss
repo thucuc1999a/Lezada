@@ -1,0 +1,17 @@
+@import "../src/assets/sass/style.scss";
+body,
+html,
+#root {
+  height: 100%;
+}
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap");
+.App {
+  .header {
+    z-index: 1000;
+  }
+  .body-content {
+    margin-top: 4rem;
+    z-index: 1;
+    max-width: 100%;
+  }
+}

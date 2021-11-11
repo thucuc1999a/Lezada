@@ -1,0 +1,236 @@
+{
+  "banner":[
+  {
+      "id":1,
+      "link": "http://lezada.reactdemo.hasthemes.com/assets/images/hero-slider/hero-slider-one/1.jpg",
+      "topic": "Trang trí nội thất 1",
+      "date" : "ba tháng 2",
+      "status": "active"
+
+  },
+  {
+      "id":2,
+      "link": "http://lezada.reactdemo.hasthemes.com/assets/images/hero-slider/hero-slider-one/2.jpg",
+      "topic": "Trang trí nội thất 2",
+      "date" : "một tháng hai",
+      "status": "active"
+
+  },
+  {
+      "id":3,
+      "link": "http://lezada.reactdemo.hasthemes.com/assets/images/hero-slider/hero-slider-one/3.jpg",
+      "topic": "Trang trí nội thất 3",
+      "date" : "hai tháng hai",
+      "status": "active"
+
+  }
+  
+],
+"product" :[
+  {
+  "id" :1,
+  "thumnailUrl": "http://lezada.reactdemo.hasthemes.com/assets/images/product/furniture/10.jpg",
+  "name_product":"Ghế bành",
+  "sale_price": 500000,
+  "discount":17 ,
+  "description":"Ghế bành bốn chân",
+  "quantity":10,
+  "orgin":"Trung Quốc",
+  "weight": 7,
+  "color": ["nâu", "vàng"],
+  "cate":
+    
+    "Ghế đẩu"
+    
+  ,
+  "key" :"ghe-banh",
+  "status":["new"]
+}, 
+{
+  "id" :2,
+  "thumnailUrl": "http://lezada.reactdemo.hasthemes.com/assets/images/product/furniture/8.jpg",
+  "name_product":"Ghế salon",
+  "sale_price": 1500000,
+  "discount":17 ,
+  "description":"Ghế salon nhỏ",
+  "quantity":10,
+  "category":"Ghế gỗ",
+  "orgin":"Trung Quốc",
+  "weight": 20,
+  "color": ["nâu", "vàng"],
+  "cate":
+   
+    "Ghế Sofa"
+    
+  ,
+  "key" :"ghe-nhua-lon",
+  "status":["sale"]
+},
+{
+  "id" :3,
+  "thumnailUrl": "http://lezada.reactdemo.hasthemes.com/assets/images/product/furniture/10.jpg",
+  "name_product":"Ghế bành",
+  "sale_price": 500000,
+  "discount":17 ,
+  "description":"Ghế bành bốn chân",
+  "quantity":10,
+  "orgin":"Trung Quốc",
+  "weight": 7,
+  "color": ["xanh dương","đỏ"],
+  "cate":
+   
+    "Ghế Sofa"
+    
+  ,
+  "key" :"ghe-banh",
+  "status":["pop"]
+}, 
+{
+  "id" :4,
+  "thumnailUrl": "http://lezada.reactdemo.hasthemes.com/assets/images/product/furniture/10.jpg",
+  "name_product":"Ghế bành",
+  "sale_price": 500000,
+  "discount":17 ,
+  "description":"Ghế bành bốn chân",
+  "quantity":10,
+  "orgin":"Trung Quốc",
+  "weight": 7,
+  "color": ["xanh dương","đỏ","tím"],
+  "cate":
+    
+    "Ghế bành"
+    
+  ,
+  "key" :"ghe-banh",
+   "status":["new"]
+}, 
+{
+  "id" :5,
+  "thumnailUrl": "http://lezada.reactdemo.hasthemes.com/assets/images/product/furniture/10.jpg",
+  "name_product":"Ghế bành",
+  "sale_price": 500000,
+  "discount":17 ,
+  "description":"Ghế bành bốn chân",
+  "quantity":10,
+  "orgin":"Trung Quốc",
+  "weight": 7,
+  "color": ["xanh dương","vàng"],
+  "cate":
+   
+    "Ghế đẩu"
+    
+  ,
+  "key" :"ghe-banh",
+  "status":["sale"]
+},
+{
+  "id" :6,
+  "thumnailUrl": "http://lezada.reactdemo.hasthemes.com/assets/images/product/decor/1.jpg",
+  "name_product":"Ghế bành",
+  "sale_price": 500000,
+  "discount":17 ,
+  "description":"Ghế bành bốn chân",
+  "quantity":10,
+  "orgin":"Trung Quốc",
+  "weight": 7,
+  "color": ["xanh dương","vàng"],
+  "cate":
+   
+    "Ghế Salon"
+    
+  ,
+  "key" :"ghe-banh",
+  "status":["new","pop"]
+
+},
+{
+  "id" :7,
+  "thumnailUrl": "http://lezada.reactdemo.hasthemes.com/assets/images/product/furniture/10.jpg",
+  "name_product":"Ghế bành",
+  "sale_price": 500000,
+  "discount":17 ,
+  "description":"Ghế bành bốn chân",
+  "quantity":10,
+  "orgin":"Trung Quốc",
+  "weight": 7,
+  "color": ["xanh dương","đỏ"],
+  "cate":
+   
+    "Ghế bành"
+    
+  ,
+  "key" :"ghe-banh",
+  "status":["new","pop"]
+},
+{
+  "id" :8,
+  "thumnailUrl": "http://lezada.reactdemo.hasthemes.com/assets/images/product/decor/2.jpg",
+  "name_product":"Ghế bành",
+  "sale_price": 500000,
+  "discount":17 ,
+  "description":"Ghế bành bốn chân",
+  "quantity":10,
+  "orgin":"Trung Quốc",
+  "weight": 7,
+  "color":[ "xanh dương"],
+  "cate":
+
+    "Ghế bốn chân"
+    
+  ,
+  "key" :"ghe-banh",
+  "status":["new"]
+},
+{
+  "id" :9,
+  "thumnailUrl": "http://lezada.reactdemo.hasthemes.com/assets/images/product/decor/2.jpg",
+  "name_product":"Ghế bành bốn chân",
+  "sale_price": 500000,
+  "discount":0 ,
+  "description":"Ghế bành bốn chân",
+  "quantity":10,
+  "orgin":"Trung Quốc",
+  "weight": 7,
+  "color":[ "xanh dương", "cam"],
+  "cate":
+    
+    "Ghế Sofa"
+    
+  ,
+  "key" :"ghe-banh",
+  "status":["new","pop"]
+}
+
+],
+"categories":[
+  {
+    "id":1,
+    "cate":"ghe-salon",
+    "name":"Ghế salon"
+   
+  },
+  {
+    "id":2,
+    "cate":"ghe-bpn-chan",
+    "name":"Ghế bốn chân"
+   
+  },
+  {
+    "id":3,
+    "cate":"ghe-banh",
+    "name":"Ghế bành"
+   
+  }
+],
+"user":[
+  {
+    "id":1,
+    "username":"nguyenthithucuc@gmail.com",
+    "fullName":"Thu Cuc",
+    "password":"1234567890",
+    "email": "nguyenthithucuc@gmail.com"
+  }
+
+]
+
+}

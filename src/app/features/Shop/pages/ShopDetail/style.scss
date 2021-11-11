@@ -1,0 +1,110 @@
+.shop-detail {
+  position: relative;
+
+  .shop-detail-wrapper {
+    .shop-detail-sidebar {
+      padding-top: auto;
+      .sidebar-image {
+        img.side {
+          object-fit: cover;
+          max-width: 100%;
+          max-height: 100%;
+          width: auto;
+          height: auto;
+          //margin-top: 3.5rem;
+        }
+        .side-title {
+          position: absolute;
+          max-width: 100%;
+          top: 0;
+          //left: 3rem;
+          h2.h2-title {
+            font-size: 2.8rem;
+            text-align: inherit;
+          }
+          p.text-title {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+    .shop-detail_header {
+      height: 69px;
+      border-bottom: 1px solid rgb(202, 202, 202);
+      display: flex;
+      align-items: center;
+      //margin: 0 4rem;
+      p.show-result {
+        width: 30%;
+        margin: 0 4rem;
+      }
+      .drop-down {
+        width: 50%;
+        justify-content: flex-end;
+
+        .filter-price {
+          width: 147px;
+          height: 28px;
+          border: none;
+          border-bottom: 2px solid rgba(139, 139, 139, 0.2);
+          float: right;
+          //color: rgba(139, 139, 139, 0.2);
+          font-family: Nunito;
+        }
+      }
+      .filter {
+        width: 20%;
+        margin-left: 2rem;
+        .item {
+          padding-right: 2rem;
+          text-decoration: none;
+          color: #333;
+          opacity: 0.6;
+          width: 25px;
+          height: 25px;
+        }
+        .item.active {
+          opacity: 1;
+        }
+      }
+    }
+    .shop-detail_content {
+      margin-top: 130px;
+      .grid_content {
+        .row-content {
+          .left-detail {
+            .left-search {
+              position: relative;
+
+              .search {
+                border: none;
+                max-width: 200px;
+                border-bottom: 2px solid rgb(184, 182, 182);
+                height: 40px;
+              }
+              .search-item {
+                position: absolute;
+                //right: 3rem;
+                text-decoration: none;
+                color: rgb(189, 189, 189);
+                line-height: 40px;
+              }
+            }
+            .left-categories {
+              margin: 2rem 0;
+              .left-categories__text {
+                padding: 2rem 0;
+              }
+            }
+            .left-pop_product {
+              padding-bottom: 2rem;
+              h2.left-pop__text {
+                padding: 2rem 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

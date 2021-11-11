@@ -1,0 +1,16 @@
+.list-wrapper {
+  width: 100%;
+  .list {
+    .list-item {
+      display: inline-flex;
+      justify-content: space-between;
+      position: relative;
+      flex-wrap: wrap;
+      //margin: 1rem 4rem 1rem 4rem;
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .list {
+  }
+}

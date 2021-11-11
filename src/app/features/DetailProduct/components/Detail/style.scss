@@ -1,0 +1,177 @@
+.container {
+  .banner-side {
+    img.banner-side-img {
+      width: 100%;
+    }
+  }
+
+  .detail_page {
+    margin-top: 100px;
+    .detail_page_wrapper {
+      .sidebar {
+        .side_slide {
+          img.thumnail {
+            width: 100%;
+          }
+          ul.label-cycle {
+            position: absolute;
+            top: 1rem;
+
+            left: 1rem;
+            margin: 0;
+            padding: 0;
+
+            .label-item {
+              list-style: none;
+              font-size: 0.8rem;
+              padding-top: 10px;
+
+              .new-item {
+                width: 4rem;
+              }
+              p.text-label {
+                font-size: 0.8rem;
+                width: 3rem;
+                height: 3rem;
+                border: rgb(21, 179, 179);
+                border-radius: 50%;
+                background-color: rgb(21, 179, 179);
+                color: #fff;
+                line-height: 3rem;
+                font-weight: bold;
+                text-align: center;
+              }
+              p.text-label-red {
+                font-size: 0.8rem;
+                width: 3rem;
+                height: 3rem;
+                border: rgba(182, 2, 26, 0.794);
+                border-radius: 50%;
+                background-color: rgba(177, 0, 24, 0.794);
+                color: #fff;
+                line-height: 3rem;
+                font-weight: bold;
+                text-align: center;
+              }
+            }
+          }
+        }
+        .side_thumbnail {
+          img.thumnail_carousel {
+            width: 100%;
+            //border: 1px solid #333;
+            max-width: 135px;
+            max-height: 180px;
+            margin: 0 !important;
+          }
+        }
+      }
+      .detail_product {
+        position: inherit;
+      }
+      .start_vote {
+        .fa-star {
+          color: rgb(19, 18, 4);
+          padding: 0 3px;
+        }
+        .fa-star.checked {
+          color: rgb(216, 202, 17);
+        }
+        .text-review {
+          text-decoration: none;
+          color: #777;
+          font-size: 16px;
+        }
+      }
+      h2.name-product {
+        font-size: 40x;
+        color: #333;
+        margin: 25px 0;
+      }
+      p.price-product {
+        font-size: 18px;
+        color: #666;
+        margin-bottom: 15px;
+      }
+      p.desc_text {
+        font-size: 15px;
+        color: #888;
+        padding-bottom: 15px;
+      }
+      .quantity {
+        display: flex;
+
+        .quantity_value {
+          //width: 150px;
+          //height: 50px;
+          display: inline-block;
+          margin-left: 100px;
+          border: none;
+          border-bottom: 2px solid rgb(129, 127, 127);
+          input.minus {
+            border: none;
+            background-color: #fff;
+            font-size: 25px;
+          }
+          input.qty {
+            width: 100px;
+            height: 30px;
+            border: none;
+            font-size: 17px;
+            text-align: center;
+          }
+          input.plus {
+            border: none;
+            background-color: #fff;
+            font-size: 20px;
+          }
+        }
+      }
+      .add_button {
+        margin: 30px 0;
+        display: flex;
+
+        button.cart_add {
+          width: 200px;
+          height: 46px;
+          background-color: #333;
+          border: none;
+          color: #fff;
+          font-size: 14px;
+          text-transform: uppercase;
+        }
+
+        button.whislist_add {
+          width: 46px;
+          height: 46px;
+          background-color: #fff;
+          border: solid 1px #333;
+          color: #666;
+          margin-left: 20px;
+          bottom: 0px;
+        }
+      }
+      .line {
+        border-top: solid 0.5px rgb(209, 208, 208);
+        margin: 30px 0;
+      }
+      .view_detail {
+        td.left_col {
+          width: 150px;
+          padding: 0 0px 20px 0;
+          font-weight: bold;
+        }
+        td.right_col {
+          width: 200px;
+          padding: 0 0px 20px 0;
+          opacity: 0.7;
+        }
+        td.right_col.share {
+          > i {
+            padding-right: 20px;
+          }
+        }
+      }
+    }
+  }
+}
